@@ -1,0 +1,14 @@
+Flask
+pymongo
+python-dotenv
+
+
+webhook-repo
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── templates
+│   └── index.html
+└── .env   (NOT pushed to GitHub)
