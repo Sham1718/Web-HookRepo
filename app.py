@@ -16,9 +16,9 @@ try:
     db = client[os.getenv("DB_NAME")]
     collection = db[os.getenv("COLLECTION_NAME")]
     client.admin.command("ping")
-    print("✅ MongoDB Connected Successfully")
+    print(" MongoDB Connected Successfully")
 except Exception as e:
-    print("❌ MongoDB Connection Failed:", e)
+    print(" MongoDB Connection Failed:", e)
 
 
 @app.route("/")
