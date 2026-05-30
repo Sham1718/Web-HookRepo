@@ -1,6 +1,6 @@
 # GitHub Webhook Receiver
 
-## Brief One-Line Summary
+## Summary
 A Flask-based webhook receiver that captures GitHub repository events, stores them in MongoDB, and displays real-time repository activities through a polling-based dashboard.
 
 ---
